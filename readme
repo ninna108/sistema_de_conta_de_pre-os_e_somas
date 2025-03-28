@@ -1,0 +1,13 @@
+Este projeto é um sistema para realizar cálculos de contas, preços e somas. O sistema permite que o usuário insira valores, faça operações de soma e calcule o preço final com base nas operações realizadas.
+
+Funcionalidades
+Recebe valores de entrada do usuário.
+
+Realiza somas de valores inseridos.
+
+Exibe o preço final após a soma.
+
+Tecnologias Utilizadas
+python
+
+este trabalho esta na licença mit
