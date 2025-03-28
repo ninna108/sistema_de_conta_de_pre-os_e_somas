@@ -1,0 +1,14 @@
+total = 0
+while True:
+  produto = str(input('nome do produto:'))
+  preco = float(input('preço: R$'))
+  total +=preco
+
+  resp = ' '
+  while resp not in 'S/N':
+   resp = str(input('quer continuar? [S/N]  ')).strip().upper()[0]
+  if resp == 'N':
+   break
+
+print ('{:-^40}'.format('fim do programa'))
+print(f'total da conta foi {total: .2f}')
